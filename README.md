@@ -7,8 +7,11 @@ This is the responsibility for ``Scalable Graph Classification via Random Walk F
   https://github.com/sawlani/A-DOGE_
 
 Ten graph datasets utilized in our paper are provided in data/processed/ folder.
+
 Two big ones cannot be uploaded to GitHub.
+
 The following shared zip file contains all the datasets in the required format. 
+
 https://drive.google.com/file/d/1XxOIf04xpOoGaLIu0QOmvjqvx6P8678o/view?usp=sharing
 
 
