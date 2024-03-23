@@ -1,21 +1,37 @@
-This is the responsibility for ``Scalable Graph Classification via Random Walk Fingerprints''.
+## Random Walk Fingerprints for Graph Classification
 
 
-**We implemented RWF based on A-DOGE, by using the same data inputs and the same svm classifier.**
+This is the responsibility of RWF: "Scalable Graph Classification via Random Walk Fingerprints". We implemented RWF based on A-DOGE, by using the same data inputs and the same svm classifier.
 
-  _Attributed Density of States based Graph Embedding
-  https://github.com/sawlani/A-DOGE_
+  Attributed Density of States based Graph Embedding
+  https://github.com/sawlani/A-DOGE
 
-Ten graph datasets utilized in our paper are provided in data/processed/ folder.
+### Required Packages:
+```
+networkx,
+scipy,
+pytorch,
+sklearn,
+numpy,
+pandas,
+cpnet (for running km-config)
+```
 
-Two big ones cannot be uploaded to GitHub.
+### Datasets
+
+Ten graph datasets utilized in our paper are provided in data/processed/ folder, in the required format.
+
+Two big datasets (> 25 MB) cannot be uploaded to GitHub.
 
 The following shared zip file contains all the datasets in the required format. 
 
 https://drive.google.com/file/d/1XxOIf04xpOoGaLIu0QOmvjqvx6P8678o/view?usp=sharing
 
 
-### You can produce all the results by running:
+
+### Reproducing the Results
+
+You can produce all the results by running:
 ```
 python RWF_Degree.py                --k=2 --dataset=[]
 python RWF_Degree.py                --k=3 --dataset=[]
@@ -40,13 +56,4 @@ e.g.,
 python RWF_Degree.py                --k=2 --dataset=MUTAG
 ```
 
-### required packages:
-```
-networkx,
-scipy,
-pytorch,
-sklearn,
-numpy,
-pandas,
-cpnet (for running km-config)
-```
+
