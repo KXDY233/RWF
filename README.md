@@ -1,6 +1,11 @@
 ## Random Walk Fingerprints for Graph Classification
 
 
+! Anonymous Github does not support secondary file directory. I uploaded all the files to: 
+
+https://drive.google.com/file/d/1rZUMvIH9bsl2tnbqJGA255Ic_WGJzEkV/view?usp=sharing
+
+
 This is the responsibility of RWF: "Scalable Graph Classification via Random Walk Fingerprints". We implemented RWF based on A-DOGE, by using the same data inputs and the same svm classifier.
 
   Attributed Density of States based Graph Embedding
