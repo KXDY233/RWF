@@ -22,11 +22,13 @@ cpnet (for running km-config)
 
 ### Datasets
 
-Ten graph datasets utilized in our paper are provided in data/processed/ folder, in the required format.
+We follow A-DOGE to preprocess the data.
+
+Ten processed graph datasets utilized in our paper are provided in data/processed/ folder.
 
 Two big datasets (> 25 MB) cannot be uploaded to GitHub.
 
-The following shared zip file contains all the datasets in the required format. 
+The following shared zip file contains all the processed datasets in the required format. 
 
 https://drive.google.com/file/d/1XxOIf04xpOoGaLIu0QOmvjqvx6P8678o/view?usp=sharing
 
