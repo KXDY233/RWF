@@ -39,7 +39,7 @@ https://drive.google.com/file/d/1XxOIf04xpOoGaLIu0QOmvjqvx6P8678o/view?usp=shari
 <img width="1007" alt="image" src="https://github.com/KXDY233/RWF/assets/85337987/ca1eabe7-fec2-4b24-9689-e8ac27018b03">
 <img width="504" alt="image" src="https://github.com/KXDY233/RWF/assets/85337987/054dffdd-26e4-43dd-902e-2dc9f723b781">
 
-You can produce all the results by running:
+You can reproduce all the results by running:
 ```
 python RWF_Degree.py                --k=2 --dataset=[]
 python RWF_Degree.py                --k=3 --dataset=[]
