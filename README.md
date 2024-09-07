@@ -1,14 +1,15 @@
-## Random Walk Fingerprints for Graph Classification
+# 🌟 Scalable Graph Classification via Random Walk Fingerprints 🌟
 
+> **Accepted at IEEE ICDM 2024**
 
-This paper has been accepted by IEEE ICDM 2024.
+This repository contains the implementation of **Random Walk Fingerprints (RWF)** for scalable graph classification, built upon the A-DOGE framework. Our method leverages the same data inputs and SVM classifier as A-DOGE.
 
-This is the responsibility of **Scalable Graph Classification via Random Walk Fingerprints**. We implemented RWF based on A-DOGE, by using the same data inputs and the same svm classifier.
+👉 For more information on A-DOGE, visit: [Attributed Density of States based Graph Embedding (A-DOGE)](https://github.com/sawlani/A-DOGE)
 
-  Attributed Density of States based Graph Embedding
-  https://github.com/sawlani/A-DOGE
+## 🚀 Required Packages
 
-### Required Packages:
+To run the code, ensure the following packages are installed:
+
 ```
 networkx,
 scipy,
@@ -19,21 +20,14 @@ pandas,
 cpnet (for running km-config)
 ```
 
-### Datasets
 
-We follow A-DOGE to preprocess the data.
+## 📂 Datasets
 
-Ten processed graph datasets utilized in our paper are provided in data/processed/ folder.
+The data preprocessing follows the same steps as A-DOGE. The ten processed datasets used in this paper are available in the `data/processed/` folder.
 
-Two big datasets (> 25 MB) cannot be uploaded to GitHub.
+**Note**: Two larger datasets (over 25MB) could not be uploaded to GitHub. You can download all the datasets, including the larger ones, from this [Google Drive link](https://drive.google.com/file/d/1XxOIf04xpOoGaLIu0QOmvjqvx6P8678o/view?usp=sharing).
 
-The following shared zip file contains all the processed datasets in the required format. 
-
-https://drive.google.com/file/d/1XxOIf04xpOoGaLIu0QOmvjqvx6P8678o/view?usp=sharing
-
-
-
-### Reproducing the Results
+## 🧪 Reproducing the Results
 
 |               | MUTAG     | PTC_MM    | PTC_FR    | PROTEINS  | DD        | IMDB-M    | RED-B     | RED-5K    |
 |---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -72,7 +66,10 @@ https://drive.google.com/file/d/1XxOIf04xpOoGaLIu0QOmvjqvx6P8678o/view?usp=shari
 | RWF-D-feature   | 55.9   | 48.1    | 70.4  | 71.4  |
 
 
-You can reproduce all the results by running:
+## ⚙️ Running the Code
+
+To reproduce the results from our experiments, use the following commands:
+
 ```
 python RWF_Degree.py                --k=2 --dataset=[]
 python RWF_Degree.py                --k=3 --dataset=[]
@@ -96,5 +93,3 @@ e.g.,
 ```
 python RWF_Degree.py                --k=2 --dataset=MUTAG
 ```
-
-
