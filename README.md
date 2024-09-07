@@ -1,8 +1,7 @@
 ## Random Walk Fingerprints for Graph Classification
 
 
-A backup of the whole project (code and data) is available at: https://drive.google.com/file/d/1rZUMvIH9bsl2tnbqJGA255Ic_WGJzEkV/view?usp=sharing
-
+This paper has been accepted by IEEE ICDM 2024.
 
 This is the responsibility of **Scalable Graph Classification via Random Walk Fingerprints**. We implemented RWF based on A-DOGE, by using the same data inputs and the same svm classifier.
 
